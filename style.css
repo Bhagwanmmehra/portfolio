@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    background-color: white;
+    gap: 10rem;
+}
+
+.bhagwan {
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.bhagwang {
+    font-size: 40px;
+    color: seagreen;
+}
+
+.meh {
+    color: seagreen;
+    font-size: 1rem;
+    text-decoration-line: underline;
+    text-align: center;
+    text-decoration-color: rgb(1, 26, 17);
+
+}
+
+h2 {
+    color: rgb(8, 20, 13);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 10px 0px 0px 0px seagreen;
+    padding: 10px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+head {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 23rem;
+    box-shadow: 1px 2px 3px 4px seagreen;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f6f5;
+    z-index: 100;
+}
+
+.nav-li {
+    display: flex;
+    gap: 3rem;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(9, 0, 0);
+}
+
+a:hover {
+    color: rgb(6, 89, 42);
+}
+
+.k-abt-me>a{
+    color: white;
+    font-style: italic;
+}
+.about {
+    margin-top: 90px;
+}
+
+.abt-box {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.abt-box2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skills-illu>img {
+    width: 50rem;
+    height: 35rem;
+    border-radius: 10px;
+    background-color: #FFF7D1;
+}
+
+.skills-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-box p {
+    font-size: 18px;
+}
+
+
+.bia,
+.ias,
+.clg {
+    width: 100%;
+    gap: 1rem;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    font-size: larger;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left1 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+}
+
+.btn {
+    width: 10rem;
+    height: 4rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+    
+}
+
+
+.btn-icon{
+    
+    width: 155px;
+    background-color: seagreen;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 0px seagreen;
+    gap:1px;
+    
+}
+.btn-icon>a>img,.btn-icon1>a>img{
+    max-width:40px;
+    max-height: 40px;
+
+}
+.btn-icon1>a{
+    width: 100%;
+    box-shadow: none;
+    padding: 10px;
+    
+}
+
+.btn-icon>a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap:5px;
+    margin: 5px;
+}
+.btn-contact{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    align-items: center;
+}
+
+.btn-icon1{
+width: 50px;
+height: 50px;
+box-shadow: none;
+display: flex;
+align-items: center;
+margin: 0;
+
+
+}
+.hard-skills1,
+.soft-skills1 {
+    width: 500px;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none
+}
+
+
+.abt-btn {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 200px;
+
+}
+
+.intro-div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.intro-div1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(BusinessIntelligenceAnalyst.png);
+}
+
+.intro {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
+    margin-top: 30px;
+    margin-left: 35px;
+    font-weight: 500;
+    text-align: justify;
+
+
+}
+
+#intro2 {
+    visibility: hidden;
+}
+
+.int-info {
+    background-color: rgb(238, 240, 248);
+    padding: 5rem;
+    opacity: 0.9;
+    box-shadow: 4px 4px 4px 4px rgb(252, 243, 243);
+}
+
+.hero-section>img {
+    width: 45rem;
+    height: 35rem;
+}
+
+.hero-section1>img {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+}
+
+button {
+    text-align: center;
+    color: white;
+    background-color: seagreen;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 4px 4px 4px 0px seagreen;
+    font-weight: 800;
+
+}
+
+.lessbutton {
+    text-align: center;
+    color: white;
+    background-color: seagreen;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 4px 4px 4px 0px seagreen;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.flex-clm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    background: rgb(226, 236, 230);
+    background: linear-gradient(66deg, rgb(172, 228, 190) 1%, rgba(204, 239, 230, 0.443) 100%);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px seagreen;
+    padding: 5px;
+}
+
+input {
+    width: 25rem;
+    padding: 5px;
+    outline-color: seagreen;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    max-width: 25rem;
+    max-height: 5rem;
+}
+
+.project {
+    text-align: justify;
+    min-width: 350px;
+    min-height: 250px;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 3px 1px seagreen;
+    border-radius: 5px;
+}
+
+.project p{
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+}
+.pro-card {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    margin: 5px;
+
+}
+
+.my-work{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    
+}
+
+.m-wrk{
+width: 30rem;
+height: 10rem;
+border-bottom-right-radius: 50px;
+border-bottom-left-radius: 50px;
+background-color: rgb(102, 6, 123);
+font-weight: 900;
+font-size: x-large;
+}

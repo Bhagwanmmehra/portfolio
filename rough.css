@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    text-align: center;
+    color: white;
+    background-color: seagreen;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 4px 4px 4px 0px seagreen;
+
+}
+
+.btn {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+    animation: skills 30s 1s infinite;
+}
+
+.hard-skills1,
+.soft-skills1 {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+    scroll-behavior: auto;
+    scrollbar-width: thin;
+}
+
+.hard-skills,.soft-skills{
+    background-color: #642828;
+    width: 400px;
+}
+
+.skills-box{
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+/* .my-skills2{
+    animation: skills 30s 1s infinite;
+}
+
+@keyframes skills {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+
+} */
